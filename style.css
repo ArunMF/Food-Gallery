@@ -1,0 +1,159 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #181818;
+}
+
+/* Header Div */
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(24, 24, 24);
+    position: sticky;
+    top: 0px;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+#search{
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 60px;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 15px;
+    font-size: 18px;
+}
+.btn1{
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    /* padding-bottom: 10px; */
+    /* padding-left: 10px; */
+    margin-bottom: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.btn1:hover{
+    color: rgb(0, 247, 255);
+    margin-bottom: 5px;
+}
+#searchBtn{
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+#searchBtn:hover{
+    color: rgb(0, 247, 255);
+}
+
+/* Display Div */
+.dispDiv{
+    width: 100%;
+    height: 470px;
+    background-image: url(https://i.postimg.cc/pXdwghSp/Food.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+#quote{
+    width: 45%;
+    height: 70%;
+    margin: 4.5%;
+    box-shadow: 3px 3px 10px rgb(143, 143, 143);
+}
+
+/* Main Div */
+.mainDiv{
+    width: 100%;
+    height: 1500px;
+    background-color: #ffffff;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.row1,.row2,.row3,.row4{
+    width: 100%;
+    height: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    width: 22%;
+    height: 95%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.col:hover{
+    box-shadow: 3px 3px 10px rgb(27, 27, 27);
+}
+.itemImg{
+    width: 90%;
+    height: 45%;
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.recName,.restName{
+    margin: 5%;
+    margin-top: 0px;
+}
+.price{
+    width: 45%;
+    margin: 5%;
+    margin-top: 0px;
+    float: left;
+}
+.rating{
+    width: 45px;
+    height: 22px;
+    margin: 5%;
+    margin-top: 0px;
+    float: right;
+    background-color: rgb(0, 216, 0);
+    padding-top: 2px;
+    padding-left: 4px;
+    /* border: 1px solid black; */
+}
+.orderBtn{
+    width: 40%;
+    height: 25px;
+    background-color: rgb(255, 208, 0);
+    border: none;
+    border-radius: 7px;
+    margin-left: 30%;
+    border: 1px solid black;
+}
+.orderBtn:hover{
+    background-color: rgb(251, 255, 0);
+}
+
+
+/* Footer Div */
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(24, 24, 24);
+    position: sticky;
+    bottom: 0px;
+}
+.footerTable{
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
